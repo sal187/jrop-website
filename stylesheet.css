@@ -1,0 +1,352 @@
+/* CSS Document */
+
+
+.Slide1 {
+	width: 100%;
+	height:1024px;
+	padding: 0px 0px;
+	background-image:url(image/Main-100.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	
+}
+
+.Slide2 {
+	width: 100%;
+	height:1024px;
+	background-image:url(image/summary.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+
+.Slide3 {
+	width: 100%;
+	height:1024px;
+	background-image:url(image/av-ready.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.Slide4 {
+	width: 100%;
+	height: 1024px;
+	background-image:url(image/JropRout.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.Slide5 {
+	width: 100%;
+	height:1024px;
+	background-image:url(image/Jropmain2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.Slide6 {
+	width: 100%;
+	height:1024px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.Slide7 {
+	width: 100%;
+	height:1024px;
+	background-image:url(image/summary.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.TagLine {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.Tag1 {
+	font-size: 50px;
+}
+
+.Tag2 {
+	font-size: 65px;
+}
+
+.Tag3 {
+    font-size: 39px;	
+}
+
+.Tag4 {
+	font-size: 19px;
+}
+
+.Summary1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 50%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+}
+
+.Summary2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	right:40%;
+	transform: translate(-50%, -50%);
+}
+
+.Summary3 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 40%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.Summary4 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	right:40%;
+	transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1440px) {
+	.container-fluid  {
+		width: 80%;
+	}
+    .Slide1 { 
+        height: 900px; 
+    }
+	.Slide2 { 
+        height: 900px; 
+    }
+	.Slide3 { 
+        height: 900px; 
+    }
+	.Slide4 { 
+        height: 900px; 
+    }
+	.Slide5 { 
+        height: 900px; 
+    }
+	.Slide6 { 
+        height: 900px; 
+    }
+	.Tag1 {
+	font-size: 40px;
+}
+    .Tag2 {
+	font-size: 55px;
+}
+	.Tag3 {
+    font-size: 31px;	
+}
+
+.Tag4 {
+	font-size: 15px;
+}
+	
+}
+
+@media only screen and (max-width: 1240px) {
+	.container-fluid  {
+		width: 80%;
+	}
+	.Slide1 { 
+        height: 750px; 
+    }
+	.Slide2 { 
+        height: 750px; 
+    }
+	.Slide3 { 
+        height: 750px; 
+    }
+	.Slide4 { 
+        height: 750px; 
+    }
+	.Slide5 { 
+        height: 750px; 
+    }
+	.Slide6 { 
+        height: 700px; 
+    }
+	.Tag1 {
+	font-size: 40px;
+}
+    .Tag2 {
+	font-size: 55px;
+}
+	.Tag3 {
+    font-size: 31px;	
+}
+
+.Tag4 {
+	font-size: 15px;
+}
+	
+}
+
+@media only screen and  (max-width: 1024px) {
+    .Slide1 { 
+        height: 600px; 
+    }
+	.Slide2 { 
+        height: 640px; 
+    }
+	.Slide3 { 
+        height: 640px; 
+    }
+	.Slide4 { 
+        height: 640px; 
+    }
+	.Slide5 { 
+        height: 640px; 
+    }
+	.Slide6 { 
+        height: 640px; 
+    }
+	.Tag1 {
+	font-size: 30px;
+}
+
+    .Tag2 {
+	font-size: 45px;
+}
+	.Tag3 {
+    font-size: 25px;	
+}
+
+.Tag4 {
+	font-size: 12px;
+}
+}
+
+.carousel-control-prev-icon{
+	color:#BF3F42;
+}
+
+
+@media only screen and (max-width: 992px) {
+	.Slide1 { 
+        height: 580px; 
+    }
+	.Slide2 { 
+        height: 580px; 
+    }
+	.Slide3 { 
+        height: 580px; 
+    }
+	.Slide4 { 
+        height: 550px; 
+    }
+	.Slide5 { 
+        height: 550px; 
+    }
+	.Slide6 { 
+        height: 600px; 
+    }
+	.Tag1 {
+	font-size: 30px;
+}
+
+    .Tag2 {
+	font-size: 45px;
+}
+	.Tag3 {
+    font-size: 23px;	
+}
+
+.Tag4 {
+	font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .Slide1 { 
+        height: 900px; 
+		background-image: url(image/JropmainMobile.jpg);
+    }
+	.Slide2 { 
+        height: 700px; 
+    }
+	.Slide3 { 
+        height: 500px; 
+    }
+	.Slide4 { 
+        height: 500px; 
+    }
+	.Slide5 { 
+        height: 500px; 
+    }
+	.Slide6 { 
+        height: 500px; 
+    }
+	.Tag1 {
+	font-size: 20px;
+}
+
+    .Tag2 {
+	font-size: 35px;
+}
+	
+.Tag3 {
+    font-size: 20px;	
+}
+
+.Tag4 {
+	font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+	
+    .Slide1 { 
+        height: 500px;
+	    background-image: url(image/JropmainMobile.jpg);
+	}
+	
+	.Slide2 { 
+        height: 300px; 
+    }
+	.Slide3 { 
+        height: 280px; 
+    }
+	.Slide4 { 
+        height: 290px; 
+    }
+	.Slide5 { 
+        height: 260px; 
+    }
+	.Slide6 { 
+        height: 200px; 
+    }
+	.Tag1 {
+	font-size: 21px;
+}
+    .Tag2 {
+	font-size: 26px;
+}
+	.Tag3 {
+    font-size: 9px;	
+}
+
+.Tag4 {
+	font-size: 7px;
+}
+}
